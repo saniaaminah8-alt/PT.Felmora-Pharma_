@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <title>Produk PT. FELMORA PHARMA — Katalog Lengkap</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="katalog produk felmora pharma tablet salep sirup injeksi" name="keywords">
+    <meta content="Katalog lengkap produk PT. Felmora Pharma: tablet, salep, sirup, injeksi, infus, obat tetes, diffuser, nasal spray." name="description">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        .nav-tabs { border-bottom: 2px solid #0d6efd; }
+        .nav-tabs .nav-link { color: #666; border: none; border-bottom: 3px solid transparent; margin-bottom: -2px; }
+        .nav-tabs .nav-link:hover { color: #0d6efd; }
+        .nav-tabs .nav-link.active { color: #0d6efd; border-bottom-color: #0d6efd; background: none; }
+        
+        .prod-thumb { 
+            width: 100%; 
+            height: 300px; 
+            object-fit: contain; 
+            border-radius: 8px; 
+            background: #eef2f5; 
+            padding: 8px; 
+            box-sizing: border-box; 
+            border: 1px solid #eef4f6;
+            margin-bottom: 12px;
+        }
+        
+        .product-card { 
+            background: #fff; 
+            border-radius: 10px; 
+            padding: 12px; 
+            box-shadow: 0 4px 12px rgba(10,10,20,0.04);
+            height: 100%;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .product-card:hover { 
+            transform: translateY(-5px); 
+            box-shadow: 0 8px 20px rgba(10,10,20,0.1);
+        }
+        
+        .product-name { 
+            font-weight: 700; 
+            color: #222; 
+            font-size: 0.95rem; 
+            margin: 8px 0 4px;
+        }
+        
+        .product-sub { 
+            color: #6c757d; 
+            font-size: 0.85rem; 
+            margin: 0;
+        }
+        
+        #categoryNav { position: sticky; top: 0; z-index: 100; background: #fff; }
+    </style>
+</head>
+
+<body>
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <div class="container-fluid bg-primary text-white py-4">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <h1 class="m-0"><i class="fas fa-pills me-2"></i>Katalog Produk PT. FELMORA PHARMA</h1>
+                <a href="Untitled-1.html" class="btn btn-light"><i class="fas fa-arrow-left me-2"></i>Kembali ke Beranda</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Category Navigation -->
+    <div id="categoryNav" class="container-fluid border-bottom">
+        <div class="container">
+            <ul class="nav nav-tabs" id="categoryTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="tablet-tab" data-bs-toggle="tab" data-bs-target="#tablet" type="button" role="tab">Tablet <span class="badge bg-primary ms-2">20</span></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="salep-tab" data-bs-toggle="tab" data-bs-target="#salep" type="button" role="tab">Salep <span class="badge bg-primary ms-2">22</span></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="sirup-tab" data-bs-toggle="tab" data-bs-target="#sirup" type="button" role="tab">Sirup <span class="badge bg-primary ms-2">10</span></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="injeksi-tab" data-bs-toggle="tab" data-bs-target="#injeksi" type="button" role="tab">Injeksi <span class="badge bg-primary ms-2">10</span></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="infus-tab" data-bs-toggle="tab" data-bs-target="#infus" type="button" role="tab">Infus <span class="badge bg-primary ms-2">10</span></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="obat-tetes-tab" data-bs-toggle="tab" data-bs-target="#obat-tetes" type="button" role="tab">Obat Tetes <span class="badge bg-primary ms-2">10</span></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="nasal-spray-tab" data-bs-toggle="tab" data-bs-target="#nasal-spray" type="button" role="tab">Nasal Spray <span class="badge bg-primary ms-2">5</span></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="diffuser-tab" data-bs-toggle="tab" data-bs-target="#diffuser" type="button" role="tab">Diffuser <span class="badge bg-primary ms-2">8</span></button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Products Content -->
+    <div class="container py-5">
+        <div class="tab-content" id="categoryContent">
+            <!-- Tablet -->
+            <div class="tab-pane fade show active" id="tablet" role="tabpanel">
+                <h3 class="mb-4">Tablet <small class="text-muted">(20 produk)</small></h3>
+                <div class="row g-4" id="tablet-grid"></div>
+            </div>
+
+            <!-- Salep -->
+            <div class="tab-pane fade" id="salep" role="tabpanel">
+                <h3 class="mb-4">Salep <small class="text-muted">(22 produk)</small></h3>
+                <div class="row g-4" id="salep-grid"></div>
+            </div>
+
+            <!-- Sirup -->
+            <div class="tab-pane fade" id="sirup" role="tabpanel">
+                <h3 class="mb-4">Sirup <small class="text-muted">(10 produk)</small></h3>
+                <div class="row g-4" id="sirup-grid"></div>
+            </div>
+
+            <!-- Injeksi -->
+            <div class="tab-pane fade" id="injeksi" role="tabpanel">
+                <h3 class="mb-4">Injeksi <small class="text-muted">(10 produk)</small></h3>
+                <div class="row g-4" id="injeksi-grid"></div>
+            </div>
+
+            <!-- Infus -->
+            <div class="tab-pane fade" id="infus" role="tabpanel">
+                <h3 class="mb-4">Infus <small class="text-muted">(10 produk)</small></h3>
+                <div class="row g-4" id="infus-grid"></div>
+            </div>
+
+            <!-- Obat Tetes -->
+            <div class="tab-pane fade" id="obat-tetes" role="tabpanel">
+                <h3 class="mb-4">Obat Tetes <small class="text-muted">(10 produk)</small></h3>
+                <div class="row g-4" id="obat-tetes-grid"></div>
+            </div>
+
+            <!-- Nasal Spray -->
+            <div class="tab-pane fade" id="nasal-spray" role="tabpanel">
+                <h3 class="mb-4">Nasal Spray <small class="text-muted">(5 produk)</small></h3>
+                <div class="row g-4" id="nasal-spray-grid"></div>
+            </div>
+
+            <!-- Diffuser -->
+            <div class="tab-pane fade" id="diffuser" role="tabpanel">
+                <h3 class="mb-4">Diffuser <small class="text-muted">(8 produk)</small></h3>
+                <div class="row g-4" id="diffuser-grid"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid footer bg-dark text-white py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="text-primary">PT. FELMORA PHARMA</h5>
+                    <p class="text-muted mb-1">Jl. Jababeka Raya, Pasirgombong, North Cikarang, Bekasi, Jawa Barat, 17530</p>
+                    <p class="text-muted mb-1"><i class="fas fa-phone me-2"></i>(021) 3456789</p>
+                    <p class="text-muted"><i class="fas fa-envelope me-2"></i>contact@felmorapharma.co.id</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="text-muted">&copy; 2025 PT. FELMORA PHARMA. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+    const categoryRegistry = {
+        'Tablet': [
+            { name: 'Vitamin C', img: 'img/1_Vit C.png' },
+            { name: 'Vitamin B Kompleks', img: 'img/Tablet/2_Vit B kompleks.png' },
+            { name: 'Metformin', img: 'img/Tablet/Metformin 3.png' },
+            { name: 'Vitamin D3', img: 'img/Tablet/4_Vit D3.png' },
+            { name: 'Vitamin E', img: 'img/Tablet/4_Vit E.png' },
+            { name: 'Iron + Folate', img: 'img/Tablet/5_Fe + Folat.png' },
+            { name: 'Zinc', img: 'img/Tablet/6_Zink.png' },
+            { name: 'Multivitamin Gummy', img: 'img/Tablet/7_Multivitamin Gummy.png' },
+            { name: 'Magnesium + B6', img: 'img/Tablet/8_Mg + B6.png' },
+            { name: 'Calcium + Vitamin D', img: 'img/Tablet/9_Kalsium+ Vit D.png' },
+            { name: 'Fish Oil Omega 3', img: 'img/Tablet/10_Fish Oil Omega 3.png' },
+            { name: 'Sodium Diclofenac', img: 'img/Tablet/Sodium Diclofenac 1.png' },
+            { name: 'Omeprazole', img: 'img/Tablet/Omeprazole 5.png' },
+            { name: 'Carbamazepine', img: 'img/Tablet/CARBAMAZEPINE 6.png' },
+            { name: 'Ciprofloxacin', img: 'img/Tablet/Ciprofloxacin 7.png' },
+            { name: 'Cefadroxil', img: 'img/Tablet/Cefadroxil 8.png' },
+            { name: 'Doxycycline', img: 'img/Tablet/Doxycycline 9.png' },
+            { name: 'Metronidazole', img: 'img/Tablet/Metronidazol 10.png' },
+            { name: 'Amoxicillin', img: 'img/Tablet/Amoxicillin 2.png' },
+            { name: 'Captopril', img: 'img/Tablet/Captopril 4.png' }
+        ],
+        'Salep': [
+            { name: 'Gentamicin', img: 'img/Sale[/1_Gentamicin.png' },
+            { name: 'Gentamicin Foto', img: 'img/Sale[/1.jpeg' },
+            { name: 'Erythromycin', img: 'img/Sale[/2_Erithyromisin.png' },
+            { name: 'Erythromycin Foto', img: 'img/Sale[/2.jpeg' },
+            { name: 'Diclofenac Sodium', img: 'img/Sale[/3_Diclofenac Sodium.png' },
+            { name: 'Diclofenac Sodium Foto', img: 'img/Sale[/3.png' },
+            { name: 'Hydrocortisone', img: 'img/Sale[/4_ Hidrocortison.png' },
+            { name: 'Hydrocortisone Foto', img: 'img/Sale[/4.png' },
+            { name: 'Mupirocin', img: 'img/Sale[/5_Mupirocin.png' },
+            { name: 'Clotrimazole', img: 'img/Sale[/6_Cloritromazol.png' },
+            { name: 'Clotrimazole Foto', img: 'img/Sale[/6.png' },
+            { name: 'Fusidic Acid', img: 'img/Sale[/7_Fusidic acid.png' },
+            { name: 'Fusidic Acid Foto', img: 'img/Sale[/7.png' },
+            { name: 'Ketoprofen', img: 'img/Sale[/8_Ketoprofen.png' },
+            { name: 'Ketoprofen Foto', img: 'img/Sale[/8.png' },
+            { name: 'Miconazole', img: 'img/Sale[/9_Miconazole.png' },
+            { name: 'Betamethasone', img: 'img/Sale[/10_Bethametasone.png' },
+            { name: 'Betamethasone Foto', img: 'img/Sale[/10.png' },
+            { name: 'Salep 11', img: 'img/Sale[/11.png' },
+            { name: 'Salep 12', img: 'img/Sale[/12.png' },
+            { name: 'Salep 13', img: 'img/Sale[/13.png' },
+            { name: 'Salep 14', img: 'img/Sale[/14.png' }
+        ],
+        'Sirup': [
+            { name: 'Paracetamol', img: 'img/Sirup-20251209T022312Z-3-001/Sirup/1_PCT.png' },
+            { name: 'Ibuprofen', img: 'img/Sirup-20251209T022312Z-3-001/Sirup/2_Ibuprofen.png' },
+            { name: 'Sulfamethoxazole', img: 'img/Sirup-20251209T022312Z-3-001/Sirup/3_Sulfametoksazol.png' },
+            { name: 'Vitamin C', img: 'img/Sirup-20251209T022312Z-3-001/Sirup/4_Vitamin C.png' },
+            { name: 'Cetirizine', img: 'img/Sirup-20251209T022312Z-3-001/Sirup/5_Cetirizine.png' },
+            { name: 'Felmorata', img: 'img/Sirup-20251209T022312Z-3-001/Sirup/6_Felmorata.png' },
+            { name: 'Felmorahist', img: 'img/Sirup-20251209T022312Z-3-001/Sirup/7_Felmorahist.png' },
+            { name: 'Feldecon', img: 'img/Sirup-20251209T022312Z-3-001/Sirup/8_Feldecon.png' },
+            { name: 'Felmed', img: 'img/Sirup-20251209T022312Z-3-001/Sirup/9_Felmed.png' },
+            { name: 'Felcral', img: 'img/Sirup-20251209T022312Z-3-001/Sirup/10_Felcral.png' }
+        ],
+        'Injeksi': [
+            { name: 'Cefriaxone', img: 'img/Injeksi-20251209T043404Z-3-001/Injeksi/Cefriaxone 1.png' },
+            { name: 'Cefotaxime', img: 'img/Injeksi-20251209T043404Z-3-001/Injeksi/Cefotaxime 2.png' },
+            { name: 'Cefazolin', img: 'img/Injeksi-20251209T043404Z-3-001/Injeksi/Cefazolin 3.png' },
+            { name: 'Ceftazidime', img: 'img/Injeksi-20251209T043404Z-3-001/Injeksi/Ceftazidime 4.png' },
+            { name: 'Cefpirome', img: 'img/Injeksi-20251209T043404Z-3-001/Injeksi/Cefpirome 5.png' },
+            { name: 'Gentamicin', img: 'img/Injeksi-20251209T043404Z-3-001/Injeksi/Gentamicin 6.png' },
+            { name: 'Ampicillin', img: 'img/Injeksi-20251209T043404Z-3-001/Injeksi/Ampicilin 7.png' },
+            { name: 'Penicillin', img: 'img/Injeksi-20251209T043404Z-3-001/Injeksi/Penicilin 8.png' },
+            { name: 'Metronidazole', img: 'img/Injeksi-20251209T043404Z-3-001/Injeksi/Metronidazol 9.png' },
+            { name: 'Ampicillin-Sulbactam', img: 'img/Injeksi-20251209T043404Z-3-001/Injeksi/Ampicillin-Sulbactam 10.png' }
+        ],
+        'Infus': [
+            { name: 'Infus Dextrose 5%', img: 'img/Infus (10)-20251209T043831Z-3-001/Infus (10)/1.png' },
+            { name: 'Infus Dextrose 10%', img: 'img/Infus (10)-20251209T043831Z-3-001/Infus (10)/2.png' },
+            { name: 'Infus NaCl 0.9%', img: 'img/Infus (10)-20251209T043831Z-3-001/Infus (10)/3.png' },
+            { name: 'Infus Ringer Laktat', img: 'img/Infus (10)-20251209T043831Z-3-001/Infus (10)/4.png' },
+            { name: 'Infus Dextrose 20%', img: 'img/Infus (10)-20251209T043831Z-3-001/Infus (10)/5.png' },
+            { name: 'Infus Aminofusin', img: 'img/Infus (10)-20251209T043831Z-3-001/Infus (10)/6.png' },
+            { name: 'Infus Potasium Chloride', img: 'img/Infus (10)-20251209T043831Z-3-001/Infus (10)/7.png' },
+            { name: 'Infus Kalsium Glukonat', img: 'img/Infus (10)-20251209T043831Z-3-001/Infus (10)/8.png' },
+            { name: 'Infus Magnesium Sulfat', img: 'img/Infus (10)-20251209T043831Z-3-001/Infus (10)/9.png' },
+            { name: 'Infus Sodium Bikarbonat', img: 'img/Infus (10)-20251209T043831Z-3-001/Infus (10)/10.png' }
+        ],
+        'Obat Tetes': [
+            { name: 'Carboxymethylcellulose Sodium', img: 'img/Obat tetes-20251209T043807Z-3-001/Obat tetes/1_Carboxymethylcellulose sodium.png' },
+            { name: 'Olopatadine', img: 'img/Obat tetes-20251209T043807Z-3-001/Obat tetes/2_Olopatadine.png' },
+            { name: 'Chloramphenicol', img: 'img/Obat tetes-20251209T043807Z-3-001/Obat tetes/3_Cloramfenicol.png' },
+            { name: 'Acetylcysteine', img: 'img/Obat tetes-20251209T043807Z-3-001/Obat tetes/4_Asetilsistein.png' },
+            { name: 'Cyclopentolate', img: 'img/Obat tetes-20251209T043807Z-3-001/Obat tetes/5_Ciclopentolate.png' },
+            { name: 'Fluticasone', img: 'img/Obat tetes-20251209T043807Z-3-001/Obat tetes/6_Fluticasone.png' },
+            { name: 'Dexamethasone', img: 'img/Obat tetes-20251209T043807Z-3-001/Obat tetes/7_Dexamethasone.png' },
+            { name: 'Tetrahidrozoline HCL', img: 'img/Obat tetes-20251209T043807Z-3-001/Obat tetes/8_Tetrahidrozoline HCL.png' },
+            { name: 'Ciprofloxacin', img: 'img/Obat tetes-20251209T043807Z-3-001/Obat tetes/9_Ciprofloxacin.png' },
+            { name: 'Lubricant', img: 'img/Obat tetes-20251209T043807Z-3-001/Obat tetes/10_Lubricant.png' }
+        ],
+        'Nasal Spray': [
+            { name: 'Nasal Spray Sodium Chloride 0.9%', img: 'img/Nasal Spray (5)-20251209T052342Z-3-001/Nasal Spray (5)/1_NaCl.png' },
+            { name: 'Nasal Spray Xylometazoline', img: 'img/Nasal Spray (5)-20251209T052342Z-3-001/Nasal Spray (5)/2_.png' },
+            { name: 'Nasal Spray Fluticasone', img: 'img/Nasal Spray (5)-20251209T052342Z-3-001/Nasal Spray (5)/3_.png' },
+            { name: 'Nasal Spray Mometasone', img: 'img/Nasal Spray (5)-20251209T052342Z-3-001/Nasal Spray (5)/4_.png' },
+            { name: 'Nasal Spray Cetirizine', img: 'img/Nasal Spray (5)-20251209T052342Z-3-001/Nasal Spray (5)/5_.png' }
+        ],
+        'Diffuser': [
+            { name: 'Diffuser Eucalyptus Oil', img: 'img/Diffuser (8)-20251209T043833Z-3-001/Diffuser (8)/1_Diffuser.png' },
+            { name: 'Diffuser Lavender Essential Oil', img: 'img/Diffuser (8)-20251209T043833Z-3-001/Diffuser (8)/2_Diffuser.png' },
+            { name: 'Diffuser Peppermint Oil', img: 'img/Diffuser (8)-20251209T043833Z-3-001/Diffuser (8)/3_Diffuser.png' },
+            { name: 'Diffuser Tea Tree Oil', img: 'img/Diffuser (8)-20251209T043833Z-3-001/Diffuser (8)/4_Diffuser.png' },
+            { name: 'Diffuser Lemon Essential Oil', img: 'img/Diffuser (8)-20251209T043833Z-3-001/Diffuser (8)/5_Diffuser.png' },
+            { name: 'Diffuser Rose Essential Oil', img: 'img/Diffuser (8)-20251209T043833Z-3-001/Diffuser (8)/6_Diffuser.png' },
+            { name: 'Diffuser Chamomile Oil', img: 'img/Diffuser (8)-20251209T043833Z-3-001/Diffuser (8)/7_Diffuser.png' },
+            { name: 'Diffuser Citronella Oil', img: 'img/Diffuser (8)-20251209T043833Z-3-001/Diffuser (8)/8_Diffuser.png' }
+        ]
+    };
+
+    function renderProducts(category, gridId) {
+        const products = categoryRegistry[category] || [];
+        const grid = document.getElementById(gridId);
+        if (!grid) return;
+        
+        grid.innerHTML = products.map(p => `
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="product-card">
+                    <img class="prod-thumb" src="${p.img}" alt="${p.name}" onerror="this.onerror=null;this.src='https://via.placeholder.com/300x300?text=No+Image';">
+                    <p class="product-name mb-0">${p.name}</p>
+                    <p class="product-sub mb-0">${category}</p>
+                </div>
+            </div>
+        `).join('');
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        renderProducts('Tablet', 'tablet-grid');
+        renderProducts('Salep', 'salep-grid');
+        renderProducts('Sirup', 'sirup-grid');
+        renderProducts('Injeksi', 'injeksi-grid');
+        renderProducts('Infus', 'infus-grid');
+        renderProducts('Obat Tetes', 'obat-tetes-grid');
+        renderProducts('Nasal Spray', 'nasal-spray-grid');
+        renderProducts('Diffuser', 'diffuser-grid');
+    });
+
+    window.addEventListener('load', function() {
+        const sp = document.getElementById('spinner');
+        if (sp) { sp.classList.remove('show'); sp.style.display = 'none'; }
+    });
+    </script>
+</body>
+</html>
